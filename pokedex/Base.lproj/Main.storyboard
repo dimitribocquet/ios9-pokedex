@@ -62,7 +62,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="K4B-Kr-E7r">
                                 <rect key="frame" x="0.0" y="99" width="600" height="501"/>
                             </imageView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="6WH-Tt-zjW">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search for Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="6WH-Tt-zjW">
                                 <rect key="frame" x="0.0" y="55" width="600" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="qvn-2u-jjr"/>
@@ -146,6 +146,7 @@
                     </view>
                     <connections>
                         <outlet property="collection" destination="est-Ja-C0U" id="qPS-TD-KPJ"/>
+                        <outlet property="searchBar" destination="6WH-Tt-zjW" id="RlD-VZ-Z6O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
